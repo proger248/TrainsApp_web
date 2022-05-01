@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #edb951;
+}
+
+.container {
+    text-align: center;
+    margin: 50px 400px;
+}
+
+.main_text {
+    font-family: 'Ubuntu', sans-serif;
+    /*padding: 10px; */
+    width: 100%;
+}
+
+.show_rasp_btn {
+    text-align: center;
+    background-color: #5a8fb9;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.show_rasp_btn:hover {
+    /* background-color: #7c9bb4; */
+    background: #d8d3d3;
+    box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.show_rasp_btn:active {
+    background-color: #5a8fb9;
+    opacity: 0.7;
+}
+
+.btn_text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    padding: .5rem;
+    border: 2px dashed #979393;
+    margin-bottom: 1rem;
+}
+
+.card h2 {
+    margin-bottom: .5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
